@@ -1019,7 +1019,7 @@ S; F; (\href{../syntax/instructions.html#syntax-instr-table}{\mathsf{table.size}
 \end{array}\end{split}\]</div>
 </section>
 <section id="xref-syntax-instructions-syntax-instr-table-mathsf-table-grow-x">
-<span id="exec-table-grow"></span><h3><span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-instr-table}{\mathsf{table.grow}}~x\)</span><a class="headerlink" href="#xref-syntax-instructions-syntax-instr-table-mathsf-table-grow-x" title="Permalink to this heading">¶</a></h3>
+<span id="exec-table-grow"></span><span id="index-7"></span><h3><span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-instr-table}{\mathsf{table.grow}}~x\)</span><a class="headerlink" href="#xref-syntax-instructions-syntax-instr-table-mathsf-table-grow-x" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Let <span class="math notranslate nohighlight">\(F\)</span> be the <a class="reference internal" href="conventions.html#exec-notation-textual"><span class="std std-ref">current</span></a> <a class="reference internal" href="runtime.html#syntax-frame"><span class="std std-ref">frame</span></a>.</p></li>
 <li><p>Assert: due to <a class="reference internal" href="../valid/instructions.html#valid-table-grow"><span class="std std-ref">validation</span></a>, <span class="math notranslate nohighlight">\(F.\href{../exec/runtime.html#syntax-frame}{\mathsf{module}}.\href{../exec/runtime.html#syntax-moduleinst}{\mathsf{tableaddrs}}[x]\)</span> exists.</p></li>
@@ -1321,7 +1321,7 @@ S; F; (\href{../syntax/instructions.html#syntax-instr-table}{\mathsf{elem.drop}}
 </section>
 </section>
 <section id="memory-instructions">
-<span id="exec-instr-memory"></span><span id="exec-memarg"></span><span id="index-7"></span><h2>Memory Instructions<a class="headerlink" href="#memory-instructions" title="Permalink to this heading">¶</a></h2>
+<span id="exec-instr-memory"></span><span id="exec-memarg"></span><span id="index-8"></span><h2>Memory Instructions<a class="headerlink" href="#memory-instructions" title="Permalink to this heading">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The alignment <span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-memarg}{\mathit{memarg}}.\href{../syntax/instructions.html#syntax-instr-memory}{\mathsf{align}}\)</span> in load and store instructions does not affect the semantics.
@@ -1709,7 +1709,7 @@ S; F; \href{../syntax/instructions.html#syntax-instr-memory}{\mathsf{memory.size
 \end{array}\end{split}\]</div>
 </section>
 <section id="xref-syntax-instructions-syntax-instr-memory-mathsf-memory-grow">
-<span id="exec-memory-grow"></span><h3><span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-instr-memory}{\mathsf{memory.grow}}\)</span><a class="headerlink" href="#xref-syntax-instructions-syntax-instr-memory-mathsf-memory-grow" title="Permalink to this heading">¶</a></h3>
+<span id="exec-memory-grow"></span><span id="index-9"></span><h3><span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-instr-memory}{\mathsf{memory.grow}}\)</span><a class="headerlink" href="#xref-syntax-instructions-syntax-instr-memory-mathsf-memory-grow" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Let <span class="math notranslate nohighlight">\(F\)</span> be the <a class="reference internal" href="conventions.html#exec-notation-textual"><span class="std std-ref">current</span></a> <a class="reference internal" href="runtime.html#syntax-frame"><span class="std std-ref">frame</span></a>.</p></li>
 <li><p>Assert: due to <a class="reference internal" href="../valid/instructions.html#valid-memory-grow"><span class="std std-ref">validation</span></a>, <span class="math notranslate nohighlight">\(F.\href{../exec/runtime.html#syntax-frame}{\mathsf{module}}.\href{../exec/runtime.html#syntax-moduleinst}{\mathsf{memaddrs}}[0]\)</span> exists.</p></li>
@@ -2003,7 +2003,7 @@ S; F; (\href{../syntax/instructions.html#syntax-instr-memory}{\mathsf{data.drop}
 </section>
 </section>
 <section id="control-instructions">
-<span id="exec-instr-control"></span><span id="exec-label"></span><span id="index-8"></span><h2>Control Instructions<a class="headerlink" href="#control-instructions" title="Permalink to this heading">¶</a></h2>
+<span id="exec-instr-control"></span><span id="exec-label"></span><span id="index-10"></span><h2>Control Instructions<a class="headerlink" href="#control-instructions" title="Permalink to this heading">¶</a></h2>
 <section id="xref-syntax-instructions-syntax-instr-control-mathsf-nop">
 <span id="exec-nop"></span><h3><span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-instr-control}{\mathsf{nop}}\)</span><a class="headerlink" href="#xref-syntax-instructions-syntax-instr-control-mathsf-nop" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic simple">
@@ -2261,7 +2261,7 @@ S; F; (\href{../syntax/types.html#syntax-valtype}{\mathsf{i32}}.\href{../syntax/
 </section>
 </section>
 <section id="blocks">
-<span id="exec-instr-seq"></span><span id="index-9"></span><h2>Blocks<a class="headerlink" href="#blocks" title="Permalink to this heading">¶</a></h2>
+<span id="exec-instr-seq"></span><span id="index-11"></span><h2>Blocks<a class="headerlink" href="#blocks" title="Permalink to this heading">¶</a></h2>
 <p>The following auxiliary rules define the semantics of executing an <a class="reference internal" href="../syntax/instructions.html#syntax-instr-seq"><span class="std std-ref">instruction sequence</span></a>
 that forms a <a class="reference internal" href="#exec-instr-control"><span class="std std-ref">block</span></a>.</p>
 <section id="entering-xref-syntax-instructions-syntax-instr-mathit-instr-ast-with-label-l">
@@ -2300,7 +2300,7 @@ Therefore, execution of a loop falls off the end, unless a backwards branch is p
 </section>
 </section>
 <section id="function-calls">
-<span id="index-10"></span><h2>Function Calls<a class="headerlink" href="#function-calls" title="Permalink to this heading">¶</a></h2>
+<span id="index-12"></span><h2>Function Calls<a class="headerlink" href="#function-calls" title="Permalink to this heading">¶</a></h2>
 <p>The following auxiliary rules define the semantics of invoking a <a class="reference internal" href="runtime.html#syntax-funcinst"><span class="std std-ref">function instance</span></a>
 through one of the <a class="reference internal" href="#exec-instr-control"><span class="std std-ref">call instructions</span></a>
 and returning from it.</p>
@@ -2355,7 +2355,7 @@ S; \href{../exec/runtime.html#syntax-val}{\mathit{val}}^n~(\href{../exec/runtime
 \end{array}\end{split}\]</div>
 </section>
 <section id="host-functions">
-<span id="exec-invoke-host"></span><span id="index-11"></span><h3>Host Functions<a class="headerlink" href="#host-functions" title="Permalink to this heading">¶</a></h3>
+<span id="exec-invoke-host"></span><span id="index-13"></span><h3>Host Functions<a class="headerlink" href="#host-functions" title="Permalink to this heading">¶</a></h3>
 <p>Invoking a <a class="reference internal" href="runtime.html#syntax-hostfunc"><span class="std std-ref">host function</span></a> has non-deterministic behavior.
 It may either terminate with a <a class="reference internal" href="../intro/overview.html#trap"><span class="std std-ref">trap</span></a> or return regularly.
 However, in the latter case, it must consume and produce the right number and types of WebAssembly <a class="reference internal" href="runtime.html#syntax-val"><span class="std std-ref">values</span></a> on the stack,
@@ -2401,7 +2401,7 @@ However, the effects of any such call are subsumed by the non-deterministic beha
 </section>
 </section>
 <section id="expressions">
-<span id="exec-expr"></span><span id="index-12"></span><h2>Expressions<a class="headerlink" href="#expressions" title="Permalink to this heading">¶</a></h2>
+<span id="exec-expr"></span><span id="index-14"></span><h2>Expressions<a class="headerlink" href="#expressions" title="Permalink to this heading">¶</a></h2>
 <p>An <a class="reference internal" href="../syntax/instructions.html#syntax-expr"><span class="std std-ref">expression</span></a> is <em>evaluated</em> relative to a <a class="reference internal" href="conventions.html#exec-notation-textual"><span class="std std-ref">current</span></a> <a class="reference internal" href="runtime.html#syntax-frame"><span class="std std-ref">frame</span></a> pointing to its containing <a class="reference internal" href="runtime.html#syntax-moduleinst"><span class="std std-ref">module instance</span></a>.</p>
 <ol class="arabic simple">
 <li><p>Jump to the start of the instruction sequence <span class="math notranslate nohighlight">\(\href{../syntax/instructions.html#syntax-instr}{\mathit{instr}}^\ast\)</span> of the expression.</p></li>
